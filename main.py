@@ -24,7 +24,6 @@ model = SentenceTransformer("all-MiniLM-L6-v2")
 index = faiss.read_index("mimic_iv_chunks.index")
 chunked_df = pd.read_pickle("chunked_data.pkl")
 
-# Gemini config
 GEMINI_API_KEY = "AIzaSyDZgKEnuVQHQLSU39zqc66bRsbgz5DP9cU"
 genai.configure(api_key=GEMINI_API_KEY)
 
