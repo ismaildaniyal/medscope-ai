@@ -1,7 +1,6 @@
-fastapi
-uvicorn
-sentence-transformers
-faiss-cpu
-pandas
-numpy
-google-generativeai
+fastapi==0.95.2
+uvicorn==0.21.1
+sentence-transformers==2.2.2
+faiss-cpu==1.7.3
+python-dotenv==0.20.0
+google-generativeai==1.0.0
