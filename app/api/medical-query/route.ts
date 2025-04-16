@@ -1,6 +1,6 @@
 import { NextResponse } from "next/server"
 // External API endpoint
-const RAG_API_ENDPOINT = "http://127.0.0.1:8000/rag"
+const RAG_API_ENDPOINT = "https://backend-project-production-90bb.up.railway.app/rag"
 
 export async function POST(request: Request) {
   try {
